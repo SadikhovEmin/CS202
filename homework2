@@ -1,0 +1,1 @@
+java -jar /Users/user/Desktop/startup_project/out/artifacts/homework2_jar/homework2.jar "$@"
