@@ -21,8 +21,6 @@ public class Main {
             int r = s.executeUpdate("create database if not exists web_crawler");
             s.executeUpdate("use web_crawler");
 
-
-
         } catch (InstantiationException e) {
 
             e.printStackTrace();
@@ -36,8 +34,6 @@ public class Main {
             e.printStackTrace();
         }
     }
-
-
 
     public static void processCommand(DBConnection connection, String[] args) throws SQLException, IOException {
         if (args.length == 1) {
@@ -189,7 +185,6 @@ public class Main {
 
 
     public static String readConfig() throws IOException {
-//        BufferedReader reader = new BufferedReader(new FileReader("/Users/user/Desktop/untitled/src/properties.conf"));
         InputStream inputStream =  Main.class.getResourceAsStream("/properties.conf");
         InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
         BufferedReader reader = new BufferedReader(inputStreamReader);
@@ -204,7 +199,6 @@ public class Main {
                     ip, port, username, password);
             return url;
         } catch (IOException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         } finally {
             reader.close();
