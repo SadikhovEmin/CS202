@@ -4,10 +4,10 @@
 Finds most popular product in all websites.
 
 #### Query 2 
-Finds the biggest bargain data for each product and website
+Finds the biggest bargain data for each product and website.
 
 #### Query 3
-Finds products that are not listed in any of the websites
+Finds products that are not listed in any of the websites.
 
 #### Available Functions : 
 
@@ -21,4 +21,3 @@ Finds products that are not listed in any of the websites
 ./homework2 query 1
 ./homework2 query 2
 ./homework2 query 3
-
