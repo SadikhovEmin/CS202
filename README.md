@@ -1,4 +1,4 @@
-# startup_project
+# Database Management System
 
 #### Query 1 
 Finds most popular product in all websites.
